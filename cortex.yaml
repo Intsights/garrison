@@ -1,0 +1,15 @@
+---
+info:
+  title: Garrison
+  description: Queue server base on RocksDB as a KV-Store backend and gRPC as an interface
+  x-cortex-git:
+    github:
+      alias: intsightsorg
+      repository: Intsights/garrison
+  x-cortex-tag: garrison
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: threatintel-rd
+openapi: 3.0.1
+servers:
+- url: "/"
